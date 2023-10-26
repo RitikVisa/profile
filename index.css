@@ -1,0 +1,58 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+   
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+p{
+    color: rgb(63, 63, 63);
+    font-size: small;
+    font-weight: 500;
+}
+
+h6{
+    color: rgb(0, 97, 189);
+    font-weight: 500;
+}
+h1{
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+}
+
+.form-container h1{
+    color: rgb(0, 97, 189);
+}
+.card:hover{
+    background: rgb(143,226,255);
+    background: linear-gradient(90deg, rgba(143,226,255,1) 51%, rgba(0,73,195,1) 100%);
+}
+
+.profile-section{
+    background: rgb(26,0,55);
+background: linear-gradient(319deg, rgba(26,0,55,1) 53%, rgba(56,0,161,1) 100%, rgba(20,0,48,1) 100%, rgba(32,0,61,1) 100%);
+}
+
+
+
+.card{
+    border-radius: 15px;
+}
+
+.connect{
+color: rgb(61, 106, 255);
+}
+
+.btn:hover{
+    color:rgb(61, 106, 255) ;
+    background-color: white;
+}
